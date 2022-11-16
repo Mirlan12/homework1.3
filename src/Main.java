@@ -13,7 +13,7 @@ public class Main {
 
             } else if (number < 0 && control) ;
             {
-                Average += number;
+            Average += number;
                 Count++;
                 System.out.println(number);
                 System.out.println(Arrays.toString(Random) + "= " + Average / number);
